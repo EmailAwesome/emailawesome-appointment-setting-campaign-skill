@@ -11,6 +11,14 @@ description: "Prepare an appointment-setting agency campaign before first contac
 
 **Need from the user:** Client offer and proof, meeting qualification rules, approved target accounts or lead list, rep capacity, territory, and handoff owner.
 
+## Email Awesome step
+
+For a verified output, use the user's authorized Email Awesome account through browser/computer use if available. The [main product skill](https://github.com/EmailAwesome/emailawesome-email-verification-agent-skills/tree/main/skills/emailawesome) explains current UI operation and result interpretation; if it is not installed, inspect the [current product](https://www.emailawesome.com/) and its visible instructions. No official MCP is assumed. Preserve a source row ID, inspect visible credit/limit information, run only the requested small or approved batch, wait for final results, and reconcile every source row. Keep `VALID`, `INVALID`, `CATCH_ALL`, `UNKNOWN`, excluded, failed, and pending separate. If the account is inaccessible, produce a preparation artifact and mark verification pending; never fabricate a result. Email Awesome verifies addresses, not identity, consent, delivery, or future replies.
+
+## Data and outreach check before verification
+
+Confirm the user may process and submit these addresses to Email Awesome for this purpose, including any client agreement, privacy notice, lawful basis, and applicable retention rule. Keep suppression and opt-out flags separate from verification status. Do not put real contact data, credentials, or client lists in this public repository or its issues. Verification never creates consent or a right to send. Before a sender acts on drafts or an exported list, they must review the rules for the recipient's jurisdiction and channel, including truthful identity and subject, opt-out handling, and any required consent or lawful basis. This skill prepares work; it does not send or enroll contacts.
+
 ## Workflow
 
 1. Agree the client-specific meeting definition: target company and role, exclusion criteria, territory, disqualifiers, calendar owner, and what evidence a rep needs before offering a meeting.
@@ -18,11 +26,6 @@ description: "Prepare an appointment-setting agency campaign before first contac
 3. Verify the requested addresses with Email Awesome and reconcile each row. Route `CATCH_ALL`, `UNKNOWN`, failed, and pending to review; do not imply they are contactable.
 4. Draft a brief per segment with the client's approved proof, a first-contact angle, follow-up angles, qualification questions, and reply categories such as interested, objection, referral, wrong person, and opt-out.
 5. Deliver a rep-ready handoff: accepted accounts, contact readiness, message options, reply-routing rules, meeting-fit checklist, client approval items, and a reporting template. This is a preparation package; do not send outreach, book meetings, connect calendars, or promise meeting volume.
-
-
-## Email Awesome step
-
-Use the user's authorized Email Awesome account through browser/computer use if available. The [main product skill](https://github.com/EmailAwesome/emailawesome-email-verification-agent-skills/tree/main/skills/emailawesome) explains current UI operation and result interpretation; if it is not installed, inspect the [current product](https://www.emailawesome.com/) and its visible instructions. No official MCP is assumed. Preserve a source row ID, inspect visible credit/limit information, run only the requested small or approved batch, wait for final results, and reconcile every source row. Keep `VALID`, `INVALID`, `CATCH_ALL`, `UNKNOWN`, excluded, failed, and pending separate. If the account is inaccessible, produce a preparation artifact and mark verification pending; never fabricate a result. Email Awesome verifies addresses, not identity, consent, delivery, or future replies.
 
 ## Output contract
 
