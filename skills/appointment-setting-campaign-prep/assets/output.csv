@@ -1,1 +1,1 @@
-client_id,source_id,account,role,territory,source,email,verification_status,verified_at,qualification_fit,rep_owner,reply_route,approval_state
+client_id,source_id,account,role,territory,source,email,verification_status,verified_at,qualification_fit,rep_owner,reply_route,approval_state,meeting_acceptance_rule,qualification_unknowns,calendar_owner,suppression_state,client_approval

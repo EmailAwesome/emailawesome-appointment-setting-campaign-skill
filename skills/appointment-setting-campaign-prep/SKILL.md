@@ -51,3 +51,9 @@ Before delivery: reconcile every input, distinguish observed facts from assumpti
 Address readiness and outreach permission are separate: a VALID address with an opt-out remains excluded. Keep source email and returned email, reconcile the actual export schema, and never assume the provider preserves arbitrary CSV columns. If IDs are dropped, use a documented job map or an unambiguous normalized-address join with a duplicate map; otherwise stop reconciliation. Do not infer permission from successful verification.
 
 For jurisdiction-specific outreach preparation, consult the current [FTC commercial email guidance](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business) and [ICO B2B marketing guidance](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/business-to-business-marketing/) when applicable. Verify other recipient jurisdictions separately; these references are not universal legal clearance.
+
+## Decision fields
+
+Keep each contact bound to one client brief, rep owner and calendar owner. A technically VALID email cannot override suppression, unresolved role evidence, client approval or territory exclusions. Define what qualifies a meeting before drafting a meeting ask. Missing job-role evidence becomes a qualification question, not a qualified meeting. Include reply routes for interested, objection, referral, wrong person and opt-out, each with a named owner. Do not merge client lists or route a response to another client's calendar.
+
+Preserve `meeting_acceptance_rule`, `qualification_unknowns`, `calendar_owner`, `suppression_state`, `client_approval`.
