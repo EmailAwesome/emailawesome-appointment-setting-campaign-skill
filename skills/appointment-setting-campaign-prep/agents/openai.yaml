@@ -1,0 +1,4 @@
+interface:
+  display_name: "Appointment Setting Campaign Preparation with Email Awesome"
+  short_description: "Prepare evidence-based outputs for this workflow"
+  default_prompt: "Use $appointment-setting-campaign-prep to prepare my authorized workflow and explain the product steps."
