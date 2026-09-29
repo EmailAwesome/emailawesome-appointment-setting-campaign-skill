@@ -6,6 +6,12 @@ A client-reviewable campaign brief and rep handoff with qualified segments, veri
 
 
 
+
+## Release status
+
+Public preview: the INVALID/exclusion path has a real product export and a controlled business deliverable; the live positive-contact path remains pending. Read the [dated QA report](QA-2026-09-29.md) before relying on a particular execution path.
+
+
 ## What you get
 
 - Define a qualified meeting for each agency client
@@ -65,7 +71,7 @@ An account is required to operate the product. Use available account capacity fi
 
 ### Has the live workflow been verified?
 
-Repository validation and installation checks cover packaging; the worked example uses synthetic inputs. A live workflow requires an authenticated account, an approved sample and an observed final result. See [QA and maintenance](QA.md) for the exact boundary.
+Public preview: the INVALID/exclusion path has a real product export and a controlled business deliverable; the live positive-contact path remains pending. See the [latest QA evidence](QA-2026-09-29.md) for the observed sample, deliverables and remaining gates. Installation and CI do not establish live destination access.
 
 ## Access and privacy
 
