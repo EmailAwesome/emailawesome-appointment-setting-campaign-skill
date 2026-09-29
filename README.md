@@ -1,5 +1,7 @@
 # Appointment Setting Campaign Preparation with Email Awesome
 
+**Official Email Awesome agent skills** · Published and maintained by [EmailAwesome](https://github.com/EmailAwesome), the official Email Awesome GitHub organization. [Visit Email Awesome](https://www.emailawesome.com/).
+
 A client-reviewable campaign brief and rep handoff with qualified segments, verification ledger, reply-routing rules, and meeting-fit criteria. This Agent Skill helps **appointment-setting agencies preparing a campaign for a specific client and sdr team** prepare an evidence-based result using Email Awesome for email address verification before first contact.
 
 

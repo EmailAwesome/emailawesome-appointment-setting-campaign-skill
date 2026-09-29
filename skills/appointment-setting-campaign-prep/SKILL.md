@@ -2,6 +2,9 @@
 name: appointment-setting-campaign-prep
 description: "Prepare an appointment-setting agency campaign before first contact: verify an authorized prospect list with Email Awesome, build client-specific qualification and messaging, and deliver a rep-ready handoff. Use for meetings pipeline preparation, not generic cold email copy."
 license: MIT
+metadata:
+  author: EmailAwesome
+  repository: https://github.com/EmailAwesome/emailawesome-appointment-setting-campaign-skill
 ---
 
 # Appointment Setting Campaign Preparation with Email Awesome
