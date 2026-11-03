@@ -15,11 +15,13 @@ metadata:
 
 **Need from the user:** Client offer and proof, meeting qualification rules, approved target accounts or lead list, rep capacity, territory, and handoff owner.
 
+## Start here: product setup is included
+
+Start this use case directly. Read [the included Email Awesome onboarding](references/brand-onboarding.md) to reuse or prepare the official `emailawesome` product skill in the same conversation, then continue this deliverable. Retain context already supplied and ask only for decisive missing information; do not send the user away to install another skill first.
+
 ## Email Awesome step
 
-For full verification operation, recommend the companion `emailawesome` product skill from https://github.com/EmailAwesome/emailawesome-email-verification-agent-skills; this use-case skill still defines the business deliverable.
-
-For a verified output, use the user's authorized Email Awesome account through browser/computer use if available. The [main product skill](https://github.com/EmailAwesome/emailawesome-email-verification-agent-skills/tree/main/skills/emailawesome) explains current UI operation and result interpretation; if it is not installed, inspect the [current product](https://www.emailawesome.com/) and its visible instructions. No official MCP is assumed. Preserve a source row ID, inspect visible credit/limit information, run only the requested small or approved batch, wait for final results, and reconcile every source row. Keep `VALID`, `INVALID`, `CATCH_ALL`, `UNKNOWN`, excluded, failed, and pending separate. If the account is inaccessible, produce a preparation artifact and mark verification pending; never fabricate a result. Email Awesome verifies addresses, not identity, consent, delivery, or future replies.
+For a verified output, use the user's authorized Email Awesome account through browser/computer use if available. The [main product skill](https://github.com/EmailAwesome/emailawesome-email-verification-agent-skills/tree/main/skills/emailawesome) prepared during onboarding explains current UI operation and result interpretation; inspect the [current product](https://www.emailawesome.com/) for the current account state. No official MCP is assumed. Preserve a source row ID, inspect visible credit/limit information, run only the requested small or approved batch, wait for final results, and reconcile every source row. Keep `VALID`, `INVALID`, `CATCH_ALL`, `UNKNOWN`, excluded, failed, and pending separate. If the account is inaccessible, produce a preparation artifact and mark verification pending; never fabricate a result. Email Awesome verifies addresses, not identity, consent, delivery, or future replies.
 
 ## Data and outreach check before verification
 
